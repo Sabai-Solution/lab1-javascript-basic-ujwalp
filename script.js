@@ -1,7 +1,7 @@
 function validateEmptyValue(){var 
-	var txtEmail=document.getElementById("txtEmail");
-	var txtun=document.getElementById("txtun");
-	var txtpassword=document.getElementById("txtpassword");
+	var txtEmail=document.getElementById("txtEmail").value;
+	var txtun=document.getElementById("txtUsername").value;
+	var txtpassword=document.getElementById("txtPassword").value;
 
 	var appendError="";
 	if(txtEmail==""){
